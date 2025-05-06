@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Home | CleanSwift</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background: url('cleaning.jpg') center center/cover no-repeat;
+      height: 90vh;
+      color: white;
+      text-shadow: 1px 1px 5px #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .btn-darkgray {
+      background-color: #333;
+      color: white;
+      border: none;
+    }
+    .btn-darkgray:hover {
+      background-color: #111;
+    }
+    .service-icon {
+      font-size: 2rem;
+    }
+    .navbar, .footer-dark {
+      background-color: #333 !important;
+    }
+    .navbar-nav .nav-link {
+      color: white !important;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #ccc !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-3" href="#">CleanSwift</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+        <!-- Centered Navigation Links -->
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="signin.html" class="nav-link">Sign In</a></li>
+        </ul>
+
+        <!-- Right-Aligned Social Links -->
+        <ul class="navbar-nav me-3">
+          <li class="nav-item"><a href="https://www.facebook.com" class="nav-link" target="_blank">Facebook</a></li>
+          <li class="nav-item"><a href="https://www.twitter.com" class="nav-link" target="_blank">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>We Make Your Home Shine</h1>
+      <p class="lead">Affordable and professional home cleaning services at your doorstep</p>
+      <a href="services.html" class="btn btn-darkgray btn-lg mt-3">View Services</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-5 text-center bg-light">
+    <div class="container">
+      <h2 class="mb-4">Why Choose CleanSwift?</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="p-3 border rounded">
+            <div class="service-icon mb-2">🧽</div>
+            <h5>Trusted Professionals</h5>
+            <p>Our trained staff ensures every job is completed with precision and care.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border rounded">
+            <div class="service-icon mb-2">🕒</div>
+            <h5>Flexible Scheduling</h5>
+            <p>Choose the time and day that fits your lifestyle. We clean when it suits you.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border rounded">
+            <div class="service-icon mb-2">🏡</div>
+            <h5>Eco-Friendly Products</h5>
+            <p>We care about your family and the environment—only safe products used.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="bg-dark text-white py-5 text-center">
+    <div class="container">
+      <h2>Book Your Cleaning Appointment Today</h2>
+      <p>No hassle, no mess. Just a cleaner, fresher home.</p>
+      <a href="contact.html" class="btn btn-light">Request a Booking</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-dark text-white text-center p-3">
+    &copy; 2025 CleanSwift. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
